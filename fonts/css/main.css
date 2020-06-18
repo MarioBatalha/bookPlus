@@ -1,0 +1,264 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+#menu{
+    background-color: #07038C;
+}
+
+#menu-item{
+    color: #fff;
+    margin-left: 30px;
+    border-left: 1px solid rgba(19, 18, 18, 0.795);
+    text-align: center;
+}
+
+#menu-search{
+ background-color: rgba(19, 18, 18, 0.795);
+}
+
+#logo{
+    font-size: 25px;
+    color: #fff
+}
+main{
+    height: 25%;
+    width: 100%;
+}
+
+#carrossel{
+    height: 500px;
+}
+
+ul{
+    margin-left: 200px;
+}
+
+input{
+    background: url('../img/procurar.png') no-repeat;
+    background-size: 20px;
+    background-position-y: 10px;
+    background-position-x: 5px; 
+    color: #fff;
+}
+
+h3{
+    text-align: center;
+}
+
+.collumn{
+    display: flex;
+}
+
+.collumn-profile{
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: auto;
+    width: 300px;
+    background: #0576D0; 
+    background: -webkit-linear-gradient(to right, #0576D0, #43A2EF);  
+    background: linear-gradient(to right, #0576D0, #43A2EF); 
+
+}
+
+.collumn-publication{
+    flex-grow: 5;
+    flex-shrink: 1;
+    flex-basis: auto;
+    width: 1000px;
+}
+
+.collumn-charts{
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: auto;
+    width: 300px;
+    background-color: #1B2126;
+}
+
+.collumn-profile-follow{
+    display: flex;
+}
+
+.collumn-profile-follow-counter{
+    flex-grow: 1;
+    flex-basis: auto;
+    flex-basis: auto;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: -55px;
+    padding: 10px;
+}
+
+#dash{
+    border-left: 2px solid rgba(230, 227, 227, 0.562);
+    border-right: 2px solid rgba(230, 227, 227, 0.562);
+    height: 70px;
+}
+
+.collumn-profile-photo{
+   width: 40%;
+   height: 40%;
+   border-radius: 100%;
+   border: 3px solid #fff;
+   align-items: center;
+   margin: 80px;
+   margin-top: 40px;
+}
+
+.collumn-profile-chat{
+    background-color: #1B2126;
+}
+
+#sign{
+    color: #fff;
+    background-color: #E14B30;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+#card{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #c4c4c4;
+    margin:20px;
+}
+
+#card-info{
+    flex-grow: 3;
+    flex-basis: 0;
+    margin-top: 40px;
+}
+
+#card-info-text{
+    color: #000;
+}
+
+#card-info-title{
+    color: #000;
+}
+
+#read{
+    margin-top: -10px;
+}
+
+.left{
+    background-color: #1B2126;
+}
+
+#users{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #1B2126;
+    border-bottom: 1px solid #525659;
+}
+
+#users-photo{
+    border-radius: 100%;
+    border: 2px solid #fff;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+#users-set{
+    padding: 10px;
+    display: inline; 
+}
+
+#users-set h6{
+    font-weight: bold;
+    font-size: 12pt;
+
+}
+
+#users-set p{
+    font-size: 10pt;
+}
+
+#users-follow{
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.list{
+    display: inline;
+    justify-content: space-between;
+}
+
+#list-img{
+    flex-grow: auto;
+    flex-basis: auto;
+    height: 120px;
+    width: 175px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#pagination{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+#skill{
+    background-color: #04082C;
+}
+
+#stats{
+    background-color: #060CA9;
+}
+
+#noonsquare{
+    background-color: #040926;
+}
+
+#flex{
+    margin: 10px;
+    width: 200px;
+    height: 5px;
+}
+
+#progress-text{
+    font-size: 10px;
+    color: #fff;
+    margin: 10px;
+}
+
+.copyright{
+    width: 100%;
+    background-color: #070CA9;
+}
+
+#status{
+    margin: 0;
+}
+
+.status-item{
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+th{
+    padding: 5px;
+    color: #0576D0;
+    text-align: center;
+    font-family: 15pt;
+    font-weight: bold;
+}
+
+td{
+    padding: 5px;
+    font-family: 3px;
+}
+
+video{
+    margin: 10px;
+    height: 250px;
+}
+
